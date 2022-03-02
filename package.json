@@ -1,6 +1,6 @@
 {
   "name": "send-email-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "send email by node.js, supports smtp and sendcloud",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
     "url": "git+ssh://git@github.com/soonfy/sendcloud-api.git"
   },
   "keywords": [
+    "email",
     "smtp",
     "sendcloud"
   ],

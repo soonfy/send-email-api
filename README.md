@@ -90,7 +90,7 @@ const run = async () => {
       ],
     }
     const emailUrl = 'https://api.sendcloud.net/apiv2/mail/send'
-    const data = await sendMailCloud(emailUrl, emailData)
+    const data = await sendMailCloud(emailUrl, emailData, emailServerConfig)
     console.log(data)
   } catch (error) {
     console.error(error)
