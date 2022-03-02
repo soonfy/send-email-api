@@ -1,0 +1,31 @@
+{
+  "name": "send-email-api",
+  "version": "1.0.0",
+  "description": "send email by node.js, supports smtp and sendcloud",
+  "main": "index.js",
+  "scripts": {
+    "test-sendcloud": "node test/test-sendcloud.js",
+    "test-smtp": "node test/test-smtp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/soonfy/sendcloud-api.git"
+  },
+  "keywords": [
+    "smtp",
+    "sendcloud"
+  ],
+  "author": "soonfy <soonfy@163.com> (https://github.com/soonfy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soonfy/send-email-api/issues"
+  },
+  "homepage": "https://github.com/soonfy/send-email-api#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "form-data": "^4.0.0",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
