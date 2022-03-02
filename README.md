@@ -105,7 +105,7 @@ run()
 ## API
 
 * sendMail: 通过 SMTP 方式发送邮件  
-* sendMailCloud: 通过 SendCloud 发送邮件  
+* sendMailCloud: 通过 SendCloud 方式发送邮件  
 
 ## 参考
 
